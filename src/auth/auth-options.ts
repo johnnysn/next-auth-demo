@@ -17,7 +17,7 @@ const springOAuthProvider = {
   clientSecret: process.env.SPRING_CLIENT_SECRET,
   clientAuthMethod: "client_secret_basic",
   redirectUri: "http://localhost:3000/api/auth/callback",
-  scope: "openid email",
+  scope: "openid",
   idToken: true,
   issuer: "http://localhost:9000",
   // jwks_endpoint: 'http://localhost:9000/oauth2/jwks',
