@@ -4,7 +4,9 @@ This is a [Next.js](https://nextjs.org) project using [NextAuth.js](https://next
 
 ## Prerequisites
 
-Setup and run this [Spring Authorization Server demo](https://github.com/johnnysn/authserverdemo) locally.
+1. Install [Node.js](https://nodejs.org/en/) and [pnpm](https://pnpm.io/).
+2. Create a `.env` file in the root of this project and add the environment variables as listed in `.env.example`.
+3. Setup and run this [Spring Authorization Server demo](https://github.com/johnnysn/authserverdemo) locally.
 
 ## Getting Started
 
